@@ -1,5 +1,5 @@
 # ANEXOS
-Podra obtener informacion adicional sobre el proyecto.
+Aqui podra obtener informacion adicional sobre el proyecto.
 
-# INTRODUCCION 
-Informacion sobre Diseño Orientado a Obetos
+
+[INTRODUCCION](INTRODUCCION.md)
