@@ -7,4 +7,5 @@ La seguridad es es una prioridad, por lo cual solo el personal autorizado podra 
 
 # Anexos
 Podra visualizar mas informacion sobre el proyecto en el siguiente enlace:
-(ANEXOS.MD)
+
+[ANEXOS](ANEXOS.MD)
