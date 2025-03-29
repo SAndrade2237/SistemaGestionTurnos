@@ -15,4 +15,12 @@ Es importante porque permite crear programas más grandes, complejos y fáciles 
 **Polimorfismo:** Es la capacidad de un objeto de adoptar diferentes formas. Permite que un mismo método se ejecute de manera diferente según el tipo de objeto que lo invoque, aumentando la flexibilidad y adaptabilidad del sistema.
 
 ## REQUISITOS INICIALES DEL SISTEMA
-■
+■ Llevar historial de turnos de pacientes.
+
+■ Asignar turnos a los medicos para evitar solapamiento.
+
+■ Notificar turnos aceptados, cancelados o modificados.
+
+■ Restringir el acceso a la informacion de pacientes y profesionales.
+
+■ Registrar en el sistema a pacientes y profecionales.
