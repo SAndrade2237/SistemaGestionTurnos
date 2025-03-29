@@ -5,3 +5,5 @@ automaticas sobre confirmaciones, cancelaciones o modificaciones de turnos.
 La seguridad es es una prioridad, por lo cual solo el personal autorizado podra acceder a los datos importantes de pacientes y médicos.
 
 
+# Anexos
+Podra visualizar mas informacion sobre el proyecto en el siguiente enlace:
