@@ -155,3 +155,9 @@ El medico debe estar registrado en el sistema de salud como profesional habilita
 El medico queda registrado en el sistema como personal del centro de salud
 
 El sistema incluye al nuevo medico en el calendario de turnos y lo habilita para recibir pacientes
+
+
+
+## BOCETO
+
+![Image](https://github.com/user-attachments/assets/838c1bd6-157b-4f08-8c54-448c6d7a9ffb)
