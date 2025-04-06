@@ -1,3 +1,4 @@
+![Image](https://github.com/user-attachments/assets/c8650b94-0648-4d1f-91e1-e8947bfd8274)
 # SistemaGestionTurnos
 El proyecto se basa en la digitalizacion en la gestion de turnos medicos en un centro de salud.
 Teniendo como principales objetivos mejorar la gestion de citas, llevar un registro del historial de turnos de los pacientes, gestionar la agenda de turnos de los médicos, desarrolar un sistema de notificaciones 
