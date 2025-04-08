@@ -1,11 +1,11 @@
-# INTRODUCCION
+# Introduccion
 
-## DESCRIPCION DEL PARADIGMA ORIENTADO A OBJETOS
+## Descripcion del paradigma oriendado a objetos
 El paradigma orientado a objetos (POO) organiza el software mediante 'objetos', que combinan datos y métodos. Se fundamenta en principios como la encapsulación, la herencia y el polimorfismo, lo que permite una mayor reutilización del código, una mejor organización y la creación de programas más escalables y fáciles de mantener.
 
 Es importante porque permite crear programas más grandes, complejos y fáciles de mantener. Facilita la reutilización de código, lo que ahorra tiempo y esfuerzo. Al estructurar el código en clases y objetos, se fomenta la organización, lo que hace el código más eficiente y comprensible.
 
-## LOS CUATRO FUNDAMENTOS DE POO
+## Los cuatros fundamentos de POO
 **Abstracción:** Es el proceso de ocultar los detalles complejos y mostrar solo la información esencial. Se logra mediante clases abstractas que actúan como plantillas, permitiendo que las clases derivadas implementen los métodos específicos.
 
 **Encapsulación:** Consiste en ocultar los detalles internos de un objeto y exponer solo los métodos necesarios para interactuar con él. Esto se logra mediante el uso de modificadores de acceso y métodos de control como getters y setters.
@@ -14,7 +14,7 @@ Es importante porque permite crear programas más grandes, complejos y fáciles 
 
 **Polimorfismo:** Es la capacidad de un objeto de adoptar diferentes formas. Permite que un mismo método se ejecute de manera diferente según el tipo de objeto que lo invoque, aumentando la flexibilidad y adaptabilidad del sistema.
 
-## REQUISITOS INICIALES DEL SISTEMA
+## Requisitos iniciales del sistema
 ■ Llevar historial de turnos de pacientes.
 
 ■ Asignar turnos a los medicos para evitar solapamiento.
@@ -26,7 +26,7 @@ Es importante porque permite crear programas más grandes, complejos y fáciles 
 ■ Registrar en el sistema a pacientes y profecionales.
 
 
-## CASOS DE USO
+## Casos de uso
 <ins>1- Admision paciente</ins>
 
 **Actor(es) involucrado(s):** Recepcionista
@@ -158,6 +158,6 @@ El sistema incluye al nuevo medico en el calendario de turnos y lo habilita para
 
 
 
-## BOCETO
+## Boceto
 
 ![Image](https://github.com/user-attachments/assets/838c1bd6-157b-4f08-8c54-448c6d7a9ffb)
