@@ -198,5 +198,6 @@ El vehiculo es una clase base que tiene atributos comunes como ruedas, motor y c
 - El sistema incluye al nuevo médico en el calendario de turnos y lo habilita para recibir pacientes.
 
 ## Boceto
+[Link boceto](https://drive.google.com/file/d/1ItFIjuNHa94EY2tsipxOirJMzSFpqHo8/view?usp=sharing)
 
-![Image](https://github.com/user-attachments/assets/838c1bd6-157b-4f08-8c54-448c6d7a9ffb)
+
