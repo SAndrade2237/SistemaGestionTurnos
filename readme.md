@@ -14,4 +14,4 @@ La seguridad es es una prioridad, por lo cual solo el personal autorizado podra 
 
 # Diagramas y Diseños
 
-[Anexos](ANEXOS.md)
+[Anexos](anexos.md)
