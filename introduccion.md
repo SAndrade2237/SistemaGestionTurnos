@@ -199,7 +199,7 @@ El vehiculo es una clase base que tiene atributos comunes como ruedas, motor y c
 
 ## Boceto
 
-[Link boceto](https://drive.google.com/file/d/1ItFIjuNHa94EY2tsipxOirJMzSFpqHo8/view?usp=sharing)
+[Link boceto](https://drive.google.com/file/d/1S0EYYTKtPr1tepANDVSbaqEgU2LtwZYW/view?usp=sharing)
 
 ![Image](https://github.com/user-attachments/assets/cdc28bb5-5a4a-43b1-a82d-fcc8f8f40bad)
 
