@@ -92,8 +92,12 @@ El vehiculo es una clase base que tiene atributos comunes como ruedas, motor y c
 2. El sistema solicita las credenciales de acceso al recepcionista.
 3. El recepcionista ingresa sus credenciales de usuario y contraseña.
 4. El sistema valida las credenciales y permite el acceso al sistema.
-5. El recepcionista solicita los datos del paciente (nombre, edad, antecedentes médicos, etc.).
-6. El sistema verifica si el paciente ya está registrado en la base de datos.
+5. El recepcionista selecciona la opcion "Registrar nuevo paciente".
+6. El recepcionista solicita los datos del paciente.
+7. El sistema verifica si el paciente ya esta registrado en la base de datos.
+8. Si no esta registrado, el recepcionista completa el formulario con los datos requeridos.
+9. El sistema genera un ID unico para el paciente y guarda los datos en la base.
+10. El sistema confirma la admision y muestra un resumen del perfil del paciente.
 
 **Precondiciones:**
 - El recepcionista debe tener acceso al sistema.
@@ -113,11 +117,15 @@ El vehiculo es una clase base que tiene atributos comunes como ruedas, motor y c
 
 **Flujo principal de eventos:**
 1. El médico ingresa al sistema de gestión de turnos.
-2. El sistema solicita las credenciales de acceso del médico.
-3. El médico ingresa su ID y contraseña para acceder al sistema.
-4. El sistema valida las credenciales y permite el acceso al calendario de turnos.
-5. El médico revisa los turnos asignados para el día o la semana.
-6. El médico puede modificar sus horarios, si es necesario, o visualizar cualquier cambio de último minuto.
+2. El sistema solicita las credenciales del medico.
+3. El medico ingresa su ID y contraseña.
+4. El sistema valida las credenciales y permite el acceso.
+5. El medico accede a la seccion "Mis turnos".
+6. El sistema muestra los turnos asignados por dia y semana.
+7. El medico selecciona  un turno para ver los detalles del paciente.
+8. El medico puede modificar horarios si hay conflictos o notificar indisponibilidad.
+9. El sistema registra cualquier modificacion o actualizacion en tiempo real.
+10. El sistema muestra un resumen actualizado del calendario del medico.
 
 **Precondiciones:**
 - El médico debe tener acceso al sistema.
@@ -136,11 +144,15 @@ El vehiculo es una clase base que tiene atributos comunes como ruedas, motor y c
 
 **Flujo principal de eventos:**
 1. El médico ingresa al sistema de gestión de pacientes.
-2. El sistema solicita las credenciales del médico para acceder al historial del paciente.
-3. El médico ingresa su ID y contraseña para continuar.
-4. El sistema valida las credenciales y le permite acceder a la información del paciente.
-5. El médico solicita al paciente su nombre o ID para buscar su historial de turnos.
-6. El sistema muestra el historial de turnos del paciente, incluyendo fechas, diagnósticos y tratamientos previos.
+2. El sistema solicita las credenciales del médico.
+3. El medico ingresa su ID y contraseña.
+4. El sistema valida las credenciales y permite el acceso.
+5. El medico selecciona la opcion "Historial del paciente".
+6. El medico solicita al paciente su nombre completo o ID.
+7. El sistema busca el historial correspondiente en la base de datos.
+8. el sistema muestra la lista de turnos con fecha, medico asignado y diagnostico.
+9. El medico puede ver el detalle de cada turno individualmente.
+10. El sistema permite descargar o imprimir el historial si es necesario.
 
 **Precondiciones:**
 - El paciente debe tener un historial registrado en el sistema.
@@ -159,11 +171,15 @@ El vehiculo es una clase base que tiene atributos comunes como ruedas, motor y c
 
 **Flujo principal de eventos:**
 1. El paciente solicita la cancelación de su turno al recepcionista.
-2. El recepcionista accede al sistema de gestión de turnos.
-3. El sistema solicita los datos del paciente (nombre, ID de turno, etc.).
-4. El recepcionista ingresa la información proporcionada por el paciente.
-5. El sistema verifica que el turno se puede cancelar dentro del plazo estipulado (72 horas antes).
-6. El sistema cambia el estado del turno a "cancelado" y notifica al médico sobre la cancelación.
+2. El recepcionista accede al sistema de gestion de turnos.
+3. el sistema solicita sus credenciales de acceso.
+4. El recepcionista ingresa su usuario y contraseña.
+5. El sistema valida el acceso y permite continuar.
+6. El recepcionista solicita al paciente su nombre y numero de turno.
+7. El sistema verifica si el turno existe y si esta dentro del plazo de cancelacion (72 horas).
+8. Si cumple con los requisitos, el recepcionista confirma la cancelacion.
+9. El sistema cambia el estado del turno a "cancelado".
+10. El sistema notifica al medico y al paciente sobre la cancelacion.
 
 **Precondiciones:**
 - El paciente debe tener un turno asignado.
@@ -185,9 +201,13 @@ El vehiculo es una clase base que tiene atributos comunes como ruedas, motor y c
 1. El recepcionista accede al sistema de gestión de personal.
 2. El sistema solicita las credenciales de acceso del recepcionista.
 3. El recepcionista ingresa su ID y contraseña para acceder al sistema.
-4. El recepcionista solicita la documentación del nuevo médico (identificación, título profesional, especialidad, etc.).
-5. El sistema asigna un ID único al nuevo médico y guarda su información en la base de datos.
-6. El sistema actualiza el calendario de turnos y agrega al nuevo médico como parte del equipo de atención.
+4. El sistema valida las credenciales y permite continuar.
+5. El recepcionista selecciona la opcion "Agregar nuevo medico".
+6. El recepcionista solicita al nuevo medico su documentacion.
+7. El sistema valida los documentos y verifica que el medico no este registrado previamente.
+8. EL sistema genera un ID unico y crea el perfil del medico.
+9. El sistema asigna al medico un calendario inicial con turnos disponibles.
+10. El nuevo medico recibe sus credenciales de acceso al sistema.
 
 **Precondiciones:**
 - El médico debe haber completado todos los requisitos para ser contratado.
