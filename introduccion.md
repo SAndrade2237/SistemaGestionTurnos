@@ -83,7 +83,7 @@ El vehiculo es una clase base que tiene atributos comunes como ruedas, motor y c
 
 ### Caso de uso 1: **Admisión de paciente**
 
-**Actor(es) involucrado(s):** Recepcionista
+**Actor(es) involucrado(s):** Recepcionista , paciente.
 
 **Descripción breve:** El recepcionista registra a un nuevo paciente.
 
