@@ -14,8 +14,8 @@ La seguridad es es una prioridad, por lo cual solo el personal autorizado podra 
 
 # Diagramas y Diseños
 
-[Anexos](anexos.md)
+- [Anexos](anexos.md)
 
-[Diagramas UML](diagramasUML.md)
+- [Diagramas UML](diagramasUML.md)
 
-[Herramientas Agile](herramientas_agile.md)
+- [Herramientas Agile](herramientas_agile.md)
