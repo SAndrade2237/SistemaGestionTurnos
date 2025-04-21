@@ -6,6 +6,9 @@ El principio de Sustitucion de Liskov indica que las clases hijas deben poder re
 ### Tipo del principio:
 LPS es un principio de herencia segura, que busca garantizar que las extensiones del sistema mantengan la coherencia logica y funcional del codigo original.
 
+### Como lo soluciona:
+Asegura que las subclases puedan reemplazar a sus clases base sin alterar el comportamiento esperado. Esto se logra respetando la logica de la superclase y evitando cambios inesperados al extender funcionalidades.
+
 ### Motivacion
 Cuando se utiliza herencia o interfaces en un sistema, es fundamental que las clases hijas respeten el contrato definido por su clase padre. Si una subclase cambia el comportamiento esperado, por ejemplo, lanza errores, ignora funcionalidades o actua de forma contradictoria, puede romper el funcionamiento del sistema y generar errores dificiles de rastrear.
 
