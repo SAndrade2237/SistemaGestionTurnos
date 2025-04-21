@@ -6,6 +6,9 @@ El principio de Responsabilidad Unica resuelve el problema de clases que realiza
 ### Tipo del principio:
 SRP es un principio de cohesion. Busca que cada clase se encargue de una unica responsabilidad, lo que hace que el codigo sea mas limpio, entendible y facil de modificar.
 
+### Como lo soluciona:
+Divide las clases para que cada una tenga una unica razon para cambiar, enfoncandose en una funcionalidad. Esto facilita el mantenimiento, ya que los cambios en una parte del sistema no afectan funcionalidades no relacionadas.
+
 ### Motivacion
 En sistemas complejos como este (Sistema de gestion de turnos medicos), un problema comun es la mezcla de responsabilidades dentro de las clases. Por ejemplo, una clase que gestiona tanto la representacion de un turno como la logica para asignarlo o notificar a los usuarios puede volverse dificil de mantener. Cualquier cambio en la asignacion de turnos o en la forma de representar los datos podria tener efectos nod eseados en otras partes del sistema, lo que incrementa el riesgo de errores.
 
