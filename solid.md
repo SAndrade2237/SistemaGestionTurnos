@@ -6,7 +6,7 @@ Los principios SOLID representan una guia fundamental dentro del diseño orienta
 
 - [Abierto/Cerrado](ocp.md)
 
-- [Sustitucion de Liskov](lsp.mp)
+- [Sustitucion de Liskov](lsp.md)
 
 - [Segregacion de Interfaces](isp.md)
 
