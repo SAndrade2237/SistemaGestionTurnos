@@ -6,6 +6,9 @@ El principio de Segregacion de Interfaces (ISP) establece que una clase no debe 
 ### Tipo del principio:
 ISP es un principio de optimizacion de interfaces. Su objetivo es mantener las interfaces pequeñas y coherentes, evitando que las clases dependan de metodos que no van a usar.
 
+### Como lo soluciona:
+Fomenta la creacion de interfaces especificas y pequeñas, de forma que cada clase implemente no solo los metodos que necesita. Esto evita la sobrecarga innecesaria y mejora la cohesion.
+
 ### Motivacion
 Cuando una clase implementa una interfaz grande y generica, que contiene muchos metodos que no son relevantes para esa clase, puede surgir un problema: la clase se ve obligada a implementar metodos que no necesita, lo que aumenta la complejidad y reduce la cohesion del sistema. Esto tambien puede resultar en errores o comportamientos indeseados, ya que el codigo tiene que lidiar con metodos innecesarios.
 
