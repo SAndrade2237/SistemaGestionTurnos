@@ -6,6 +6,9 @@ El principio Abierto/Cerrado plantea que las clases deben estar abiertas para la
 ### Tipo del principio:
 OCP es un principio de extensibilidad. Esta orientado a permitir que nuevas funcionalidades se agreguen al sistema sin alterar el codigo existente, lo que reduce el riesgo de introducir fallos.
 
+### Como lo soluciona:
+Permite extender el comportamiento de una clase sin modificar su codigo original, utilizando herencia, interfaces o composicion. Asi, el sistema crece sin comprometer su estabilidad.
+
 ### Motivacion
 A medida que un sistema crece, es comun que surjan nuevos requerimentos, como agregar funcionalidades o modificar comportamientos. Si cada vez que necesitamos extender el sistema debemos modificar el codigo existente, corremos el riesgo de romper funcionalidades que ya estaban funcionando correctamente.
 
