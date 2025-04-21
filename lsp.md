@@ -1,4 +1,4 @@
-## Principio de Sustitucion de Liskov(LSP)
+## Principio de Sustitucion de Liskov (LSP)
 
 ### Proposito del principio:
 El principio de Sustitucion de Liskov indica que las clases hijas deben poder reemplazar a sus clases padre sin alterar el comportamiento esperado del programa. En otras palabras, si una clase hija hereda de una clase padre, podria usarse en lugar de padre sin causar errores ni comportamientos inesperados.
