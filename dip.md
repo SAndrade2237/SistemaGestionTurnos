@@ -12,9 +12,9 @@ DIP es un principio de desacoplamiento, que permite reducir la dependencia direc
 Reduce el acoplamiento al hacer que los modulos dependan de abstracciones en lugar de implementaciones concretas. Esto se logra usanto interfaces e inyeccion de dependencias, lo que mejora la flexibilidad y la testabilidad del sistema.
 
 ### Motivacion
-Cuando un modulo de alto nivel (por ejemplo, una clase que maneja la logica principal del sistema) depende directamente de clases de bajo nivel (como una clase que envia correos), cualquier cambio en esas clases concretas obliga a modificar el codigo del modulo principal. Esto rompe la estabilidad del sistema, genera un fuerte acoplamiento y dificulta el mantenimiento
+Actualmente, las clases parecen interactuar directamente con SistemaNotificaciones. Esto genera una dependencia directa: si cambia esa clase, hay que modificar las clases que la usan (por ejemplo, Turno en su metodo notificarCambio().
 
-El principio de Inversion de Dependencias permite que ambos niveles trabajen a traves de abstracciones, como interfaces. Esto hace que el sistema sea mas flexible, facil de probar y extender, ya que las implementaciones concretas pueden cambiar sin alterar la logica principal.
+Al aplicar DIP, en lugar de que Turno dependa de SistemaNotificaciones, dependeria de una interfaz como Inotificador. Luego, se puede inyectar una clase concreta (NotificadorEmail, NotificadorSMS, etc.) Esto permite desacoplar la logica del negocio de los detalles tecnicos.
 
 Ejemplo: Imagina una cafetera que viene con una marca especifica de filtro incorporado. Si quisieras cambiar el tipo de filtro, tendrias que modificar la estructura interna de la cafetera. En cambio, si la cafetera acepta cualquier tipo de filtro que cumpla con una forma o estandar, podes usar cualquier marca sin modificar nada mas. La cafetera depende de una abstraccion (el estandar del filtro), no de una implementacoin concreta.
 
