@@ -10,9 +10,9 @@ SRP es un principio de cohesion. Busca que cada clase se encargue de una unica r
 Divide las clases para que cada una tenga una unica razon para cambiar, enfoncandose en una funcionalidad. Esto facilita el mantenimiento, ya que los cambios en una parte del sistema no afectan funcionalidades no relacionadas.
 
 ### Motivacion
-En sistemas complejos como este (Sistema de gestion de turnos medicos), un problema comun es la mezcla de responsabilidades dentro de las clases. Por ejemplo, una clase que gestiona tanto la representacion de un turno como la logica para asignarlo o notificar a los usuarios puede volverse dificil de mantener. Cualquier cambio en la asignacion de turnos o en la forma de representar los datos podria tener efectos nod eseados en otras partes del sistema, lo que incrementa el riesgo de errores.
+En el diagrama, se observa que la clase Recepcionista tiene metodos para registrar pacientes, cancelar turnos y asignarlos. Estas son dos responsabilidades distintas: gestion de usuarios y gestion de turnos. Si cambia la forma de registrar un paciente (por ejemplo, añadiendo verificacion por email), la clase Recepcionista se veria afectada, aunque no tenga los relacion con los turnos.
 
-El principio de Responsabilidad Unica (SRP) resuelve este problema al garantizar que cada clase tenga una unica razon para cambiar. Esto implica que una clase debe ocuparse de una sola tarea, lo que facilita el mantenimiento y la extension del sistema sin afectar otras funcionalidades.
+Separando las responsabilidades en clases diferentes, por ejemplo GestorPaciente y GestorTurnos, se cumple SRP, y cada clase se puede mantener y actualizar de forma mas clara y sin afectar otras funcionalidades.
 
 Ejemplo: en una oficina de correos, si una sola persona se encarga de recibir paquetes, clasificarlos, antender clientes y entregar correspondencia, cualquier cambio o error puede afectar todo el proceso. En cambio, si cada empleado tiene una tarea especifica, el sistema funciona mejor y es mas facil de ajustar o mejorar.
 
