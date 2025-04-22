@@ -10,9 +10,9 @@ OCP es un principio de extensibilidad. Esta orientado a permitir que nuevas func
 Permite extender el comportamiento de una clase sin modificar su codigo original, utilizando herencia, interfaces o composicion. Asi, el sistema crece sin comprometer su estabilidad.
 
 ### Motivacion
-A medida que un sistema crece, es comun que surjan nuevos requerimentos, como agregar funcionalidades o modificar comportamientos. Si cada vez que necesitamos extender el sistema debemos modificar el codigo existente, corremos el riesgo de romper funcionalidades que ya estaban funcionando correctamente.
+La clase SistemaNotificaciones maneaja el envio y generacion de mensajes. Si en un futuro se quiere implementar notificaciones por otros medios (WhatsApp, notificacion in-app, etc.), habria que modificar directamente esta clase.
 
-El principio Abierto/Cerrado(OCP) ayuda a resolver este problema al fomentar un diseño en el que se pueda agregar un nuevo comportamiento sin tener que modificar las clases ya desarrolladas. Esto permite que el sistema evolucione de forma segura, estable y mas predecible.
+Aplicando OCP, se puede definir una interfaz INotificador y luego implementar clases como NotificadorEmail, NotificadorSMS, etc. Asi SistemaNotificaciones puede extenderse con nuevas funcionalidades sin modificar su estructura, manteniendola cerrada al cambio pero abierta a extensiones.
 
 Ejemplo: imagina una maquina expendedora que solo acepta monedas. Si en el futuro se requiere agregar la opcion de pagar con tarjeta, no seria logico abrir la maquina y modificar todo el sistema original de monedas. Lo ideal seria extender la funcionalidad agregando un nuevo modulo para tarjetas que se conecte al sistema sin alterar el mecanismo ya existente.
 
