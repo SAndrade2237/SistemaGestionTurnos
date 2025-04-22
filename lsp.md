@@ -10,9 +10,9 @@ LPS es un principio de herencia segura, que busca garantizar que las extensiones
 Asegura que las subclases puedan reemplazar a sus clases base sin alterar el comportamiento esperado. Esto se logra respetando la logica de la superclase y evitando cambios inesperados al extender funcionalidades.
 
 ### Motivacion
-Cuando se utiliza herencia o interfaces en un sistema, es fundamental que las clases hijas respeten el contrato definido por su clase padre. Si una subclase cambia el comportamiento esperado, por ejemplo, lanza errores, ignora funcionalidades o actua de forma contradictoria, puede romper el funcionamiento del sistema y generar errores dificiles de rastrear.
+Si el sistema introduce una subclase de Turno como TurnoMedico, esta deberia comportarse como un turno normal. Por ejemplo, metodos como confirmarTurno() o cancelarTurno() deberian funcionar igual, sin romper el flujo del programa.
 
-El principio de Sustitucion de Liskov evita este problema al asegurar que cualquier clase derivada pueda sustituir a su clase base sin alterar el comportamiento logico del sistema. Esto permite que las funcionalidades se extiendan de forma segura sin temor a que nuevas implementaciones interfieran con lo ya construido.
+Si TurnoMedicina cambia el comportamiento esperado, como no permitir la cancelacion despues de confirmarse, se rompe LPS. Por eso, cualquier subclase debe respetar las reglas del padre (Turno), permitiendo que pueda ser reemplazada sin errores.
 
 Ejemplo: Imagina un sistema para gestionar dispositivos de impresion con una clase base DispositivoDeImpresion y subclases como Impresora y Fotocopiadora. Si la Fotocopiadora cambia el metodo imprimir() para realizar una funcion diferente como copiar en lugar de imprimir, se violaria el principio de Sustitucion de Liskov. Esto impediria que se sustituya un dispositivo por otro sin alterar el comportamiento esperado.
 
