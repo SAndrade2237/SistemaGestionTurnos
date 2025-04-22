@@ -10,9 +10,9 @@ ISP es un principio de optimizacion de interfaces. Su objetivo es mantener las i
 Fomenta la creacion de interfaces especificas y pequeñas, de forma que cada clase implemente no solo los metodos que necesita. Esto evita la sobrecarga innecesaria y mejora la cohesion.
 
 ### Motivacion
-Cuando una clase implementa una interfaz grande y generica, que contiene muchos metodos que no son relevantes para esa clase, puede surgir un problema: la clase se ve obligada a implementar metodos que no necesita, lo que aumenta la complejidad y reduce la cohesion del sistema. Esto tambien puede resultar en errores o comportamientos indeseados, ya que el codigo tiene que lidiar con metodos innecesarios.
+Si se creara una interfaz IUsiarop que fuera implementada tanto por Paciente como Recepcionista, con metodos  como asignarTurno(), consultarHistorial() y resgistrarPaciente(), estariamos obligando a ciertas clases a implementar metodos que no le corresponden.
 
-El principio de Segregacion de Interfaces (ISP) resuelve este problema al promover la creacion de interfaces mas pequeñas y especificas, permitiendo que las clases implementen solo lo que realmente necesitan. De esta maneram se mejora la cohesion y flexibilidad del sistema y facilita su mantenimiento.
+Con ISP, se puede dividir esa interfaz en IPaciente y IRecepcionista, para que cada clase implemente solo lo necesario. Asi se evita que una clase tenga que depender de metodos irrelevantes, y el diseño se vuelve mas limpio.
 
 Ejemplo: Imaginá un sistema para gestionar diferentes tipos de vehículos: autos, camiones, bicicletas, etc. Si creamos una interfaz Vehiculo con métodos como encenderMotor(), transportarCarga() y acelerar(), la clase Bicicleta se vería obligada a implementar transportarCarga(), aunque no tiene esa funcionalidad.
 
