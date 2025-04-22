@@ -1,5 +1,4 @@
-# Introduccion
-
+# Anexo - Introduccion al Diseño Orientado a Objetos
 
 ## Descripcion del paradigma oriendado a objetos
 El paradigma orientado a objetos (POO) organiza el software mediante 'objetos', que combinan datos y métodos. Se fundamenta en principios como la encapsulación, la herencia y el polimorfismo, lo que permite una mayor reutilización del código, una mejor organización y la creación de programas más escalables y fáciles de mantener.
