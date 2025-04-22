@@ -10,7 +10,7 @@ ISP es un principio de optimizacion de interfaces. Su objetivo es mantener las i
 Fomenta la creacion de interfaces especificas y pequeñas, de forma que cada clase implemente no solo los metodos que necesita. Esto evita la sobrecarga innecesaria y mejora la cohesion.
 
 ### Motivacion
-Si se creara una interfaz IUsiarop que fuera implementada tanto por Paciente como Recepcionista, con metodos  como asignarTurno(), consultarHistorial() y resgistrarPaciente(), estariamos obligando a ciertas clases a implementar metodos que no le corresponden.
+Si se creara una interfaz IUsuario que fuera implementada tanto por Paciente como Recepcionista, con metodos  como asignarTurno(), consultarHistorial() y resgistrarPaciente(), estariamos obligando a ciertas clases a implementar metodos que no le corresponden.
 
 Con ISP, se puede dividir esa interfaz en IPaciente y IRecepcionista, para que cada clase implemente solo lo necesario. Asi se evita que una clase tenga que depender de metodos irrelevantes, y el diseño se vuelve mas limpio.
 
