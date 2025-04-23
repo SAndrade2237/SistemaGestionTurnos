@@ -17,3 +17,6 @@ Si TurnoMedicina cambia el comportamiento esperado, como no permitir la cancelac
 Ejemplo: Imagina un sistema para gestionar dispositivos de impresion con una clase base DispositivoDeImpresion y subclases como Impresora y Fotocopiadora. Si la Fotocopiadora cambia el metodo imprimir() para realizar una funcion diferente como copiar en lugar de imprimir, se violaria el principio de Sustitucion de Liskov. Esto impediria que se sustituya un dispositivo por otro sin alterar el comportamiento esperado.
 
 ### Estructuras de Clases
+[Link diagrama LSP](https://drive.google.com/file/d/1Q8JAOmaouRS3SXLvQr29LiXoFphcI6AH/view?usp=sharing)
+
+![Image](https://github.com/user-attachments/assets/5dd9af46-466c-4fc4-8fba-3249994d5e32)
