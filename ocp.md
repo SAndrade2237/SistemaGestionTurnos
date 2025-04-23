@@ -17,3 +17,7 @@ Aplicando OCP, se puede definir una interfaz INotificador y luego implementar cl
 Ejemplo: imagina una maquina expendedora que solo acepta monedas. Si en el futuro se requiere agregar la opcion de pagar con tarjeta, no seria logico abrir la maquina y modificar todo el sistema original de monedas. Lo ideal seria extender la funcionalidad agregando un nuevo modulo para tarjetas que se conecte al sistema sin alterar el mecanismo ya existente.
 
 ### Estructuras de Clases
+
+[Link boceto OCP](https://drive.google.com/file/d/1901lqPkDTTshthEH_N938RqbPf3m8ZDY/view?usp=sharing)
+
+![Image](https://github.com/user-attachments/assets/b7c32ad6-3fbf-4665-83ca-0fa17ae0f81b)
