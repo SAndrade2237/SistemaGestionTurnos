@@ -12,7 +12,7 @@ Asegura que las subclases puedan reemplazar a sus clases base sin alterar el com
 ### Motivacion
 Si el sistema introduce una subclase de Turno como TurnoMedico, esta deberia comportarse como un turno normal. Por ejemplo, metodos como confirmarTurno() o cancelarTurno() deberian funcionar igual, sin romper el flujo del programa.
 
-Si TurnoMedicina cambia el comportamiento esperado, como no permitir la cancelacion despues de confirmarse, se rompe LPS. Por eso, cualquier subclase debe respetar las reglas del padre (Turno), permitiendo que pueda ser reemplazada sin errores.
+Si TurnoMedico cambia el comportamiento esperado, como no permitir la cancelacion despues de confirmarse, se rompe LPS. Por eso, cualquier subclase debe respetar las reglas del padre (Turno), permitiendo que pueda ser reemplazada sin errores.
 
 Ejemplo: Imagina un sistema para gestionar dispositivos de impresion con una clase base DispositivoDeImpresion y subclases como Impresora y Fotocopiadora. Si la Fotocopiadora cambia el metodo imprimir() para realizar una funcion diferente como copiar en lugar de imprimir, se violaria el principio de Sustitucion de Liskov. Esto impediria que se sustituya un dispositivo por otro sin alterar el comportamiento esperado.
 
