@@ -19,4 +19,6 @@ Al aplicar DIP, en lugar de que Turno dependa de SistemaNotificaciones, depender
 Ejemplo: Imagina una cafetera que viene con una marca especifica de filtro incorporado. Si quisieras cambiar el tipo de filtro, tendrias que modificar la estructura interna de la cafetera. En cambio, si la cafetera acepta cualquier tipo de filtro que cumpla con una forma o estandar, podes usar cualquier marca sin modificar nada mas. La cafetera depende de una abstraccion (el estandar del filtro), no de una implementacoin concreta.
 
 ### Estructuras de Clases
+[Link diagrama DIP](https://drive.google.com/file/d/13sQLg-sKKEo4lQ82iRvH7Omw5H6OXiBz/view?usp=sharing)
 
+![Image](https://github.com/user-attachments/assets/1c2ee0d3-3fc0-439a-818a-22792650fa25)
