@@ -16,4 +16,8 @@ Separando las responsabilidades en clases diferentes, por ejemplo GestorPaciente
 
 Ejemplo: en una oficina de correos, si una sola persona se encarga de recibir paquetes, clasificarlos, antender clientes y entregar correspondencia, cualquier cambio o error puede afectar todo el proceso. En cambio, si cada empleado tiene una tarea especifica, el sistema funciona mejor y es mas facil de ajustar o mejorar.
 
-### Estructuras de Clases
+### Estructuras de Clase
+
+[Link diagrama SRP](https://drive.google.com/file/d/1a1VsXyi3AmNyzNlwK12anT0YsTsb2Wzj/view?usp=sharing)
+
+![Image](https://github.com/user-attachments/assets/bf61acac-0325-4f88-8216-430ed3e78e8e)
