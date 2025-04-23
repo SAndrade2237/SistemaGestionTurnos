@@ -18,6 +18,6 @@ Ejemplo: imagina una maquina expendedora que solo acepta monedas. Si en el futur
 
 ### Estructuras de Clases
 
-[Link boceto OCP](https://drive.google.com/file/d/1901lqPkDTTshthEH_N938RqbPf3m8ZDY/view?usp=sharing)
+[Link boceto OCP](https://drive.google.com/file/d/1myN5J-MkZZP9NWSl1eVFnNKFnGuuItCp/view?usp=sharing)
 
-![Image](https://github.com/user-attachments/assets/b7c32ad6-3fbf-4665-83ca-0fa17ae0f81b)
+![Image](https://github.com/user-attachments/assets/9c320964-049f-40ed-afbd-6dddd2ef5249)
