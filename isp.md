@@ -18,3 +18,7 @@ Ejemplo: Imaginá un sistema para gestionar diferentes tipos de vehículos: auto
 
 Siguiendo el principio ISP, lo ideal sería dividir la interfaz Vehiculo en interfaces más pequeñas: VehiculoConMotor (con encenderMotor()) y VehiculoDeCarga (con transportarCarga()). De este modo, las clases como Bicicleta solo implementan los métodos relevantes para ellas.
 ### Estructuras de Clases
+
+[Link de diagrama ISP](https://drive.google.com/file/d/1RzCRJSo705FdvnzmyG0QfCzZmAjXM-jQ/view?usp=sharing)
+
+![Image](https://github.com/user-attachments/assets/82546aea-ca26-4eb4-bd86-4be9cd891706)
