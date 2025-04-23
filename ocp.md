@@ -1,7 +1,7 @@
 ## Principio de Abierto/Cerrado (OCP)
 
 ### Proposito del principio:
-El principio Abierto/Cerrado plantea que las clases deben estar abiertas para la extension pero cerradas para la modificacion. Es decirm el comportamiento de un modulo debe poder extenderse sin necesidad de cambiar su codigo original. Esto ayuda a evitar errores al modificar codigo que ya funciona, y promueve un diseño mas flexible.
+El principio Abierto/Cerrado plantea que las clases deben estar abiertas para la extension pero cerradas para la modificacion. Es decir, el comportamiento de un modulo debe poder extenderse sin necesidad de cambiar su codigo original. Esto ayuda a evitar errores al modificar codigo que ya funciona, y promueve un diseño mas flexible.
 
 ### Tipo del principio:
 OCP es un principio de extensibilidad. Esta orientado a permitir que nuevas funcionalidades se agreguen al sistema sin alterar el codigo existente, lo que reduce el riesgo de introducir fallos.
@@ -18,6 +18,6 @@ Ejemplo: imagina una maquina expendedora que solo acepta monedas. Si en el futur
 
 ### Estructuras de Clases
 
-[Link boceto OCP](https://drive.google.com/file/d/1myN5J-MkZZP9NWSl1eVFnNKFnGuuItCp/view?usp=sharing)
+[Link diagrama OCP](https://drive.google.com/file/d/1myN5J-MkZZP9NWSl1eVFnNKFnGuuItCp/view?usp=sharing)
 
 ![Image](https://github.com/user-attachments/assets/9c320964-049f-40ed-afbd-6dddd2ef5249)
