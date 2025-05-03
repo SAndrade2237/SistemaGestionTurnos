@@ -18,6 +18,6 @@ Ejemplo: en una oficina de correos, si una sola persona se encarga de recibir pa
 
 ### Estructuras de Clase
 
-[Link diagrama SRP](https://drive.google.com/file/d/1a1VsXyi3AmNyzNlwK12anT0YsTsb2Wzj/view?usp=sharing)
+[Link diagrama SRP](https://drive.google.com/file/d/1fTnMcVsHQC2NGCNi2UHaGLidRqVczZ_E/view?usp=sharing)
 
-![Image](https://github.com/user-attachments/assets/bf61acac-0325-4f88-8216-430ed3e78e8e)
+![Image](https://github.com/user-attachments/assets/a2e9a3e4-b79e-4a6c-bbdf-67be04409244)
